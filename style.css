@@ -1,0 +1,32 @@
+    
+body {
+    background-color: rgb(241, 85, 137);
+    color: rgb(254, 113, 191);
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: .25px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+}
+
+img {
+    clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.coluna-normal {
+    display: flex;
+    flex-direction: column;
+
+}
